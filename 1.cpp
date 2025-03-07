@@ -16,13 +16,8 @@ int main() {
     cout << "Введите размер массива (вещественное): ";
     cin >> array_size;
 
-    if (cin.fail()) {
+    if (cin.fail() || array_size <= 0) {
         cout << "Ошибка ввода" << endl;
-        return 1;
-    }
-
-    if (array_size <= 0) {
-        cout << "Размер массива должен быть больше 0" << endl;
         return 1;
     }
 
