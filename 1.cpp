@@ -73,7 +73,6 @@ int main() {
 
     int sort_array_size = array_size;
     int *R = new int[array_size];
-    int change_el;
 
     for (int i = 0; i < array_size; i++)
     {
