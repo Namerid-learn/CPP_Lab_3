@@ -78,7 +78,8 @@ int main() {
     {
         *(R + i) = *(A + i);
     }
-    
+
+    delete[] A;    
 
     while(sort_array_size--)
 	{   
