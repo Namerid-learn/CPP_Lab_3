@@ -21,6 +21,11 @@ int main() {
         return 1;
     }
 
+    if (array_size <= 0) {
+        cout << "Размер массива должен быть больше 0" << endl;
+        return 1;
+    }
+
     int *A = new int[array_size];
 
     srand(time(0));
